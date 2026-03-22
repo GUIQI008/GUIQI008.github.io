@@ -1,0 +1,8 @@
+Origin: guiqiの源
+Label: guiqiの源
+Suite: stable
+Version: 1.0
+Codename: guiqi-repo
+Architectures: iphoneos-arm64
+Components: main
+Description: 个人 deb 越狱源

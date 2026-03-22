@@ -1,0 +1,64 @@
+Package: com.guiqi.cleanjd
+Version: 0.0.1-26+debug
+Architecture: iphoneos-arm64
+Maintainer: guiqi
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.guiqi.cleanjd_0.0.1-26 debug_iphoneos-arm64.deb
+Size: 6998
+MD5sum: 515017221c9400d36ed513885f1ebbe3
+SHA1: 1a97dd92a165e876d06da386054e441cd5a806f1
+SHA256: 800268bde890ebc5b0900728e867a6c3e84e58d34f4e47e4a2f6971c69045c77
+Section: Tweaks
+Description: 精简京东底栏、首页
+Author: guiqi
+Name: CleanJD
+
+Package: com.guiqi.cleanpdd
+Version: 0.0.1-8+debug
+Architecture: iphoneos-arm64
+Maintainer: guiqi
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.guiqi.cleanpdd_0.0.1-8 debug_iphoneos-arm64.deb
+Size: 6124
+MD5sum: 2cf0b3b08f928824147d5bbf2705efb7
+SHA1: ca8610c48e1814c8efe3a1282c10ea11765ad36e
+SHA256: b0a957c32ca2379ca0978d521ecc63cf16d159710342be4f4b136385f337c9a1
+Section: Tweaks
+Description: 精简拼多多底栏
+Author: guiqi
+Name: CleanPDD
+
+Package: com.guiqi.cleantb
+Version: 0.0.1-10+debug
+Architecture: iphoneos-arm64
+Maintainer: guiqi
+Installed-Size: 220
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.guiqi.cleantb_0.0.1-10 debug_iphoneos-arm64.deb
+Size: 13774
+MD5sum: 7c6fc6a0475da8203ccedb0abfbe38ce
+SHA1: 66736038e3b9eaa07bd156e7e00b696c26cff39e
+SHA256: 0ebd99a14a2c8f690016b23e004c55d5811ce4c4bfc845c72e84d3b84fc4fc7f
+Section: Tweaks
+Description: 精简淘宝底栏
+Author: guiqi
+Name: CleanTB
+
+Package: com.guiqi.fucknotion
+Version: 0.0.1-14+debug
+Architecture: iphoneos-arm64
+Maintainer: guiqi
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.guiqi.fucknotion_0.0.1-14 debug_iphoneos-arm64.deb
+Size: 7940
+MD5sum: 8b72c7563ae1c3d3736032b76aa0f759
+SHA1: 54de3dd4df680fa5dc14627610d918889b28ca97
+SHA256: 468effb3ef332b8378209b04eac2b17ac0c643e3afd68fd49d8b9ce84f167005
+Section: Tweaks
+Description: 去掉烦人更新提示
+Author: guiqi
+Name: FuckNotion
+
