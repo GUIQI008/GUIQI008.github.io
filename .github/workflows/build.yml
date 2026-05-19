@@ -1,0 +1,36 @@
+name: Auto Build Repo Packages
+
+# 触发条件：只要你往主分支(main)推送代码，机器人立刻启动
+on:
+  push:
+    branches:
+      - main
+      - master # 兼容旧版主分支名
+
+jobs:
+  build:
+    runs-on: ubuntu-latest # 使用 GitHub 免费提供的 Ubuntu Linux 服务器
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v3
+
+      - name: 安装 dpkg 工具环境
+        run: sudo apt-get update && sudo apt-get install -y dpkg-dev bzip2 xz-utils
+
+      - name: 自动生成 Packages 索引文件
+        run: |
+          # 扫描 debs 文件夹下的插件
+          dpkg-scanpackages -m ./debs > Packages
+          # 生成 bz2 格式 (Cydia 需要)
+          bzip2 -c9 Packages > Packages.bz2
+          # 生成 xz 格式 (Sileo 和 Zebra 读取更快)
+          xz -c9 Packages > Packages.xz
+
+      - name: 将生成的文件自动提交到你的仓库
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+          git add Packages Packages.bz2 Packages.xz
+          # 如果没有变化就不提交，防止报错
+          git commit -m "🚀 Auto update Packages index" || echo "No changes to commit"
+          git push
