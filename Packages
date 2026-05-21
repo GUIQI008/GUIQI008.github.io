@@ -31,20 +31,20 @@ Author: guiqi
 Name: CleanPDD
 
 Package: com.guiqi.cleantb
-Version: 1.0.1
+Version: 1.0.2
 Architecture: iphoneos-arm64
 Maintainer: GUIQI
 Installed-Size: 168
 Depends: mobilesubstrate
-Filename: ./debs/com.guiqi.cleantb_1.0.1_iphoneos-arm64.deb
-Size: 5898
-MD5sum: cf98d24543ae1e2b52ff0d3102a70223
-SHA1: 074a5ff3f5efb1e837e5caff2359d9451a197fff
-SHA256: e9577d2b1b64d42b9ae86af5c14dc33cac74d8b7ed3b8e024001e406e8926454
+Filename: ./debs/com.guiqi.cleantb_1.0.2_iphoneos-arm64.deb
+Size: 4954
+MD5sum: 4408ab4414ee4066fcbd389b687e30e4
+SHA1: c00134a8c67a55891078c814b67b8e05145b5172
+SHA256: 0427df3f2e77e364f252f592c10c0bee0f934d0c33bf8e4573802f9d96b7ff5e
 Section: Tweaks
-Description: 淘宝底栏去视频，极简排版重构。
+Description: 淘宝底栏去视频，排版重构。
 Author: GUIQI
-Name: 淘宝净化 (CleanTB)
+Name: CleanTB
 
 Package: com.guiqi.fucknotion
 Version: 0.0.1-14+debug
