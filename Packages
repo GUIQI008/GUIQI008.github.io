@@ -46,6 +46,22 @@ Description: 淘宝底栏去视频，排版重构。
 Author: GUIQI
 Name: CleanTB
 
+Package: com.guiqi.cleantb
+Version: 1.0.9
+Architecture: iphoneos-arm64
+Maintainer: GUIQI
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.guiqi.cleantb_1.0.9_iphoneos-arm64.deb
+Size: 5562
+MD5sum: a0bb1f3b04f9add947e8c70712750be0
+SHA1: 8daa011f4d1d8f19d83caf447b68eea66f92060e
+SHA256: c3a7414288748e3d1aefab1d545dcb14361bff8338f0d26b58264a0aed7bb567
+Section: Tweaks
+Description: 淘宝底栏去视频，排版重构。
+Author: GUIQI
+Name: CleanTB
+
 Package: com.guiqi.fucknotion
 Version: 0.0.1-14+debug
 Architecture: iphoneos-arm64
