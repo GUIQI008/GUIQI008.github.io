@@ -37,10 +37,10 @@ Maintainer: GUIQI
 Installed-Size: 168
 Depends: mobilesubstrate
 Filename: ./debs/com.guiqi.cleantb_1.0.1_iphoneos-arm64.deb
-Size: 5422
-MD5sum: 587fe261cefec07c776467890f0d3310
-SHA1: 3d02b44e715c4e0920b7173cf0de122ae028bf75
-SHA256: 4e97007b58b52f7d12e787849187d25a2d843974dc4467f3fb9ac4840c734e25
+Size: 5898
+MD5sum: cf98d24543ae1e2b52ff0d3102a70223
+SHA1: 074a5ff3f5efb1e837e5caff2359d9451a197fff
+SHA256: e9577d2b1b64d42b9ae86af5c14dc33cac74d8b7ed3b8e024001e406e8926454
 Section: Tweaks
 Description: 淘宝底栏去视频，极简排版重构。
 Author: GUIQI
