@@ -1,19 +1,3 @@
-Package: com.guiqi.cleanjd
-Version: 0.0.1-26+debug
-Architecture: iphoneos-arm64
-Maintainer: guiqi
-Installed-Size: 172
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.guiqi.cleanjd_0.0.1-26 debug_iphoneos-arm64.deb
-Size: 6998
-MD5sum: 515017221c9400d36ed513885f1ebbe3
-SHA1: 1a97dd92a165e876d06da386054e441cd5a806f1
-SHA256: 800268bde890ebc5b0900728e867a6c3e84e58d34f4e47e4a2f6971c69045c77
-Section: Tweaks
-Description: 精简京东底栏、首页
-Author: guiqi
-Name: CleanJD
-
 Package: com.guiqi.cleanpdd
 Version: 0.0.1-8+debug
 Architecture: iphoneos-arm64
@@ -29,22 +13,6 @@ Section: Tweaks
 Description: 精简拼多多底栏
 Author: guiqi
 Name: CleanPDD
-
-Package: com.guiqi.cleantb
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: GUIQI
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: ./debs/com.guiqi.cleantb_1.0.2_iphoneos-arm64.deb
-Size: 4954
-MD5sum: 4408ab4414ee4066fcbd389b687e30e4
-SHA1: c00134a8c67a55891078c814b67b8e05145b5172
-SHA256: 0427df3f2e77e364f252f592c10c0bee0f934d0c33bf8e4573802f9d96b7ff5e
-Section: Tweaks
-Description: 淘宝底栏去视频，排版重构。
-Author: GUIQI
-Name: CleanTB
 
 Package: com.guiqi.cleantb
 Version: 1.0.9
