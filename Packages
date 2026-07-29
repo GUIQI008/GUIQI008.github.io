@@ -46,3 +46,22 @@ Description: 去掉烦人更新提示
 Author: guiqi
 Name: FuckNotion
 
+Package: guiqi.cleanjd
+Version: 1.0
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: 桂琪，AI
+Conflicts: guiqi.cleanjd
+Replaces: guiqi.cleanjd
+Provides: guiqi.cleanjd
+Filename: ./debs/guiqi.cleanjd-1.0-rootless.deb
+Size: 41396
+MD5sum: 771b18362cb28e47db5f4f13050c58f1
+SHA1: e302f36bbba76a8fa59b8ee93ac177886940a9da
+SHA256: e10837c8ed32c3b189de397ba38cbf47b1dbbc8117aeb9e0156f3380968e7cac
+Section: Tweaks
+Priority: optional
+Description: 精简底栏，推广广告
+Author: 桂琪
+Name: 京东净化Re
+
