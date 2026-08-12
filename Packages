@@ -1,3 +1,41 @@
+Package: cm90.crossoveripc
+Version: 1.1-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: @CrazyMind90
+Installed-Size: 368
+Depends: mobilesubstrate, com.opa334.libsandy
+Filename: ./debs/cm90.crossoveripc_1.1-1+debug_iphoneos-arm64e.deb
+Size: 17484
+MD5sum: e9df193a414386b07306ba84d754fbe0
+SHA1: 23633596c9c4c9f9fb7e89031d574672276fee11
+SHA256: 1c8ea11cad2e0d6d47fb2f50d30d34bbd4ac45cd36bc35f0809138a1122027ef
+Section: Tweaks
+Description: A cross-process communication tool for sending and receiving messages on iOS 15 & 16 for rootless JBs
+Author: @CrazyMind90
+Name: CrossOverIPC
+
+Package: com.cokepokes.libnotifications
+Version: 0.3-6-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 416
+Depends: firmware (>= 8.0), com.opa334.libsandy
+Filename: ./debs/com.cokepokes.libnotifications_0.3-6-1+debug_iphoneos-arm64e.deb
+Size: 17386
+MD5sum: 9302a8f7cab9239e166d9d566dbf7609
+SHA1: 6e0ef89a12d2daa3327642aed9f9e3b781919022
+SHA256: af17f7044ea1c9afef0ed5afd1550f2bf3d126688d6888dba085ff13d40e84ea
+Section: Development
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotificationsDp
+Description: App notification library.
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
+Author: CokePokes <cokepokes@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotificationsDp
+Dev: cokepokes
+Name: libnotifications
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.guiqi.cleanpdd
 Version: 0.0.1-8+debug
 Architecture: iphoneos-arm64
@@ -45,6 +83,22 @@ Section: Tweaks
 Description: 去掉烦人更新提示
 Author: guiqi
 Name: FuckNotion
+
+Package: com.muirey03.cr4shed
+Version: 4.3.1-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: Muirey03
+Installed-Size: 2356
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11), com.opa334.libsandy, ldid
+Filename: ./debs/com.muirey03.cr4shed_4.3.1-1+debug_iphoneos-arm64e.deb
+Size: 228226
+MD5sum: 898aa2c574b26e4d0f6cca12601583cb
+SHA1: ecd8623280a27d400f320b1d6ecd6e8f0acef438
+SHA256: 4c8536c7510e9cb00cd8826a70bf90badec7ad6c652568a3a7d5ff1cc3a3cd24
+Section: Tweaks
+Description: A modern crash reporter for iOS
+Author: Muirey03
+Name: Cr4shed
 
 Package: guiqi.cleanjd
 Version: 1.0
