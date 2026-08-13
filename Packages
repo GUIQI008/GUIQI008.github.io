@@ -36,6 +36,57 @@ Dev: cokepokes
 Name: libnotifications
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.guiqi.cleanpdd
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: guiqi
+Installed-Size: 216
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.guiqi.cleanpdd_1.0_iphoneos-arm64e.deb
+Size: 8020
+MD5sum: 721c8f51b30a0133ef726aad08451280
+SHA1: bebcc8eae69f4b434af8807a6d88fc47334edbb0
+SHA256: 87986115f70593c6ce0fbc7d208fee8fb6904d58313cbb28298e5b39290d7de1
+Section: Tweaks
+Description: 删除多多底栏视频，大促按钮并重新排版
+Author: guiqi
+Name: 多多底栏净化
+
+Package: com.guiqi.cleantb
+Version: 1.0.9
+Architecture: iphoneos-arm64e
+Maintainer: guiqi
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/com.guiqi.cleantb_1.0.9_iphoneos-arm64e.deb
+Size: 7454
+MD5sum: 919065c88d6f5510338cf3209d807b08
+SHA1: a67d1ba68826e09ac3e9997457ba48098e74b03b
+SHA256: 3c99df1ce38f84c47afb4a977cabd141e328d019e85a4bdb1a9f510c845ddc54
+Section: Tweaks
+Description: 某宝底栏去除视频，排版重构。
+Author: guiqi
+Name: 某宝底栏精简
+
+Package: com.guiqi.fucknotion
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: guiqi
+Installed-Size: 216
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.guiqi.fucknotion_1.0_iphoneos-arm64e.deb
+Size: 10092
+MD5sum: 8c5f3e5cc8200fdfbc572fd2760cc89f
+SHA1: 4f8f36ffcf6508baf473e9ffd2913fd20706bd6c
+SHA256: 8159fd6f719c9e194bd74cfcd9ea9a9387868d0bf0815b0b79efb98fe2f47a82
+Section: Tweaks
+Description: 去除 Notion 弹窗更新提示，编辑界面横幅更新提示
+Author: guiqi
+Name: FuckNotion
+
 Package: com.muirey03.cr4shed
 Version: 4.3.1-1+debug
 Architecture: iphoneos-arm64e
@@ -51,4 +102,24 @@ Section: Tweaks
 Description: A modern crash reporter for iOS
 Author: Muirey03
 Name: Cr4shed
+
+Package: guiqi.cleanjd
+Version: 1.0
+Architecture: iphoneos-arm64e
+Essential: no
+Maintainer: 桂琪，AI
+Pre-Depends: rootless-compat(>= 0.9)
+Conflicts: guiqi.cleanjd
+Replaces: guiqi.cleanjd
+Provides: guiqi.cleanjd
+Filename: ./debs/guiqi.cleanjd_1.0_iphoneos-arm64e.deb
+Size: 39098
+MD5sum: 5fe515c272c23d735b8d9aeeedab9699
+SHA1: 401e50268d8166e0b86e17c48dfabae4b7c8fb2d
+SHA256: 01a8a80c76781dda49487d55b7c89b6be46b1210a657c301b0bc45c98416e2b7
+Section: Tweaks
+Priority: optional
+Description: 狗东精简底栏并重新排版，移除推广广告。
+Author: guiqi
+Name: 狗东净化
 
